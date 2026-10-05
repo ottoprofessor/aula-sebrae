@@ -1,0 +1,138 @@
+﻿PROMPTS DA AULA "IA NO PEQUENO NEGÓCIO"
+Professor Otto · @otto.professor · Sebrae Roraima
+
+Como usar: copie o prompt, cole no ChatGPT ou no Claude e envie. Troque o que estiver entre [colchetes] pelos dados do seu negócio.
+
+============================================================
+CALCULADORA DE PREÇO DE VENDA
+A ferramenta que criamos ao vivo, em 1 minuto.
+
+Crie um aplicativo em um único arquivo HTML para eu usar no celular: uma calculadora de preço de venda para o meu negócio. Campos: custo do produto, taxa da maquininha (%) e lucro que eu quero (%). Mostre na hora o preço de venda e quanto sobra de lucro. Visual bonito, botões grandes e tudo em português.
+
+============================================================
+CALCULADORAS DO DIA A DIA (6 EM 1)
+Preço, lucro real, ponto de equilíbrio, promoção, parcelado e meta do mês.
+
+Aja como um consultor financeiro de pequenos negócios. Crie uma ferramenta com 6 calculadoras, cada uma numa aba:
+1. Preço de venda: custo, impostos (%), taxa da maquininha (%) e lucro desejado (%). Mostre o preço e quanto sobra.
+2. Meu lucro real: preço de venda, custo, impostos, taxa e embalagem/entrega. Mostre o lucro em R$ e a margem em %.
+3. Ponto de equilíbrio: custos fixos do mês, preço médio e custo de cada venda. Mostre quantas vendas por mês e por dia para empatar.
+4. Promoção: preço, custo e desconto (%). Mostre quanto preciso vender a mais para lucrar o mesmo, ou avise se dá prejuízo.
+5. Parcelado: valor, número de parcelas e taxa da maquininha. Mostre quanto recebo e quanto cobrar para receber o valor cheio.
+6. Meta do mês: quanto quero ganhar, custos fixos, lucro por venda (%) e ticket médio. Mostre o faturamento e as vendas por dia necessárias.
+Cada campo com caixa de número e controle deslizante. O resultado muda na hora, com uma barra colorida mostrando para onde vai cada parte do preço e a fórmula escrita embaixo. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+DASHBOARD DE VENDAS AUTOMÁTICO
+Você solta a planilha e ele monta os gráficos, com filtros.
+
+Aja como um analista de dados especialista em pequenos negócios. Crie um dashboard de vendas em que eu arrasto uma planilha (CSV ou Excel) ou colo uma tabela copiada do Excel, e ele monta tudo sozinho. A planilha tem data, produto, quantidade e valor; descubra as colunas pelo nome do cabeçalho.
+Mostre: faturamento, número de vendas, ticket médio e melhor dia da semana; gráfico de faturamento por mês; ranking dos produtos que mais faturam.
+Filtros: clicar numa barra do mês filtra tudo por aquele mês; clicar num produto filtra por ele; botões de dia da semana. Mostre os filtros ativos com um X para tirar e um botão "Limpar filtros". Inclua um botão "Usar dados de exemplo" com 6 meses de vendas de uma confeitaria. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+DRE AUTOMÁTICO
+Lance o que entrou e o que saiu e veja quanto sobrou de verdade.
+
+Aja como um contador de pequenos negócios. Crie um DRE (Demonstrativo de Resultado) automático do mês. Eu lanço cada item com descrição, tipo (venda, imposto, custo do produto ou despesa fixa) e valor, e posso apagar qualquer lançamento.
+Mostre um gráfico em cascata: receita, menos impostos, menos custo dos produtos, menos despesas fixas, igual a lucro. Embaixo, a tabela do DRE com lucro bruto, lucro líquido e margem em %. Se der prejuízo, mostre em vermelho.
+Inclua botões rápidos como "+ Encomenda R$ 450" e "+ Conta de luz R$ 280". Exemplo inicial de uma confeitaria MEI com receita de R$ 6.000 no mês. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+CONCILIAÇÃO BANCÁRIA
+Confere o extrato do banco com as vendas registradas.
+
+Crie uma ferramenta de conciliação bancária. Eu arrasto dois arquivos (Excel ou CSV): o extrato do banco e a planilha de vendas registradas. Descubra sozinho qual é qual e quais colunas são data, descrição e valor. Ignore as saídas do extrato (valores negativos).
+Ao clicar em "Conciliar", ligue cada entrada do banco a uma venda de mesmo valor, aceitando diferença de até 1 dia na data (eu posso mudar para 0, 1, 2 ou 3 dias). Mostre lado a lado as duas listas, com "conferido" em verde e o número do par, "entrou no banco e não tem venda" e "venda sem dinheiro no banco" em vermelho. No topo, os totais de cada grupo em R$.
+Permita também adicionar e apagar lançamentos à mão. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+PLANEJADOR DA SEMANA
+Arraste as tarefas para os dias e horários.
+
+Crie um planejador da semana para o meu negócio. Colunas de segunda a sábado e linhas manhã, tarde e noite. Tenho uma paleta de tarefas coloridas (produção, entrega, post no Instagram, pagar conta, comprar insumos, feira) que eu arrasto para o dia e o horário. Funciona com o mouse e com o dedo no celular. Cada tarefa colocada tem um X para tirar e posso arrastar de um dia para outro. Embaixo, um resumo: "Semana com 10 tarefas: 3 produções, 2 entregas...". Deixe eu criar tarefas novas com nome e cor. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+ESCALA DE FUNCIONÁRIOS
+Monta a escala da semana e mostra onde falta gente.
+
+Aja como um gerente de operações. Crie uma ferramenta de escala de funcionários da semana (segunda a domingo), com turnos de 8 horas.
+Para cada funcionário: nome, função, limite de horas por semana e dias de folga fixa. Para cada dia: quantas pessoas eu preciso.
+Um botão "Montar escala automática" distribui as pessoas começando pelos dias mais cheios, sem passar do limite de horas de ninguém. Eu posso clicar num dia para escalar, dar folga ou liberar. Mostre, para cada dia, "escalados de necessários" em verde, vermelho (falta) ou amarelo (sobra), e para cada pessoa as horas usadas. No final, um resumo: onde falta gente e quantas horas eu precisaria contratar. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+CONTROLE DE ESTOQUE COM FICHA TÉCNICA
+Cada venda dá baixa nos ingredientes e avisa quando repor.
+
+Crie um controle de estoque para uma confeitaria. Itens: farinha, chocolate, açúcar, leite condensado e embalagens, com quantidade, unidade e estoque mínimo.
+Cada produto vendido tem uma ficha técnica (exemplo: 1 bolo de pote usa 0,15 kg de farinha, 0,1 kg de chocolate, 0,1 kg de açúcar, 1 lata de leite condensado e 1 embalagem). Ao clicar em "Vendi 1 bolo de pote", o sistema tira do estoque cada ingrediente.
+Mostre um gráfico de barras do estoque com duas linhas: alerta (1,5 vez o mínimo) e mínimo. Abaixo do alerta, amarelo; abaixo do mínimo, vermelho com "REPOR". Monte sozinho a lista de compras e um histórico de movimentações. Botão "+ Repor" em cada item e "Simular um dia de vendas". Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+PLANILHA COMPLETA DO NEGÓCIO (EXCEL)
+A IA monta o arquivo .xlsx inteiro, com abas, fórmulas e alertas.
+
+Aja como um especialista em Excel para pequenos negócios. Crie e me entregue um arquivo Excel (.xlsx) completo para controlar uma confeitaria, com estas abas:
+- Painel: faturamento, número de vendas, ticket médio, lucro do mês, itens para repor e clientes sumidos, com um gráfico de faturamento por produto.
+- Vendas: data, cliente, produto (escolhido numa lista suspensa), quantidade, preço buscado automaticamente com PROCV e total.
+- Produtos: preço e quanto cada um vendeu no mês.
+- Estoque: quantidade, mínimo e situação automática ("Repor" em vermelho, "Atenção" em amarelo, "OK" em verde).
+- Clientes: última compra, total gasto e situação ("Sumido" se não compra há 30 dias).
+- Caixa: entradas, saídas, saldo e acumulado por mês.
+Use fórmulas de verdade, formatação condicional, cabeçalhos coloridos e valores em reais. Preencha com dados de exemplo para eu ver funcionando.
+
+============================================================
+PYTHON: JUNTAR VÁRIAS PLANILHAS EM UMA
+Para rodar no Google Colab, de graça, pelo navegador.
+
+Aja como um programador Python paciente, que explica para quem nunca programou. Escreva um código para eu rodar no Google Colab que:
+1. Peça para eu enviar várias planilhas de vendas (Excel ou CSV) de uma vez.
+2. Junte todas numa só, colocando uma coluna com o nome do arquivo de origem.
+3. Some o faturamento por mês e por produto.
+4. Gere um arquivo Excel "relatorio.xlsx" com três abas (Tudo junto, Por mês, Por produto) e baixe para o meu computador.
+Me explique passo a passo onde clicar no Colab, em linguagem simples, e o que fazer se aparecer algum erro.
+
+============================================================
+GESTÃO DE CLIENTES (FUNIL)
+Um quadro para arrastar cada cliente da negociação até o pós-venda.
+
+Crie um quadro de gestão de clientes no estilo kanban, com as colunas: Novo contato, Orçamento enviado, Fechou e Pós-venda.
+Cada cartão tem nome, telefone, pedido, valor e há quantos dias está parado. Eu arrasto os cartões entre as colunas com o mouse ou com o dedo. No topo de cada coluna, a quantidade e o total em R$; no topo da página, o total fechado.
+Mostre etiquetas automáticas: "responder hoje" em novos contatos, "2 dias sem resposta" em orçamentos parados, "pedir avaliação" no pós-venda. Botão para adicionar contato e um link "Chamar no WhatsApp" em cada cartão. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+CLUBE DE FIDELIDADE COM INDICAÇÃO
+O cliente se cadastra pelo celular, junta pontos e indica amigos.
+
+Crie um clube de fidelidade para a minha loja, pensado para o cliente abrir no celular por um QR code.
+O cliente se cadastra com nome, CPF e WhatsApp e ganha 20 pontos de boas-vindas. Ele vê os pontos, uma barra até o próximo prêmio e o histórico.
+Prêmios: brigadeiro grátis (30 pontos), bolo de pote grátis (80), R$ 20 de desconto (150) e torta inteira (300). Ao trocar, gere um cupom para mostrar no caixa.
+Dias especiais: terça vale pontos em dobro; quinta tem 15% no bolo de pote.
+Indicação: cada cliente tem um código; o amigo que entra com o código ganha 30 pontos e, quando ele compra, quem indicou ganha 50.
+Inclua também uma tela "Caixa da loja" em que eu digito o CPF e o valor da compra para dar os pontos. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Salve os dados no próprio navegador (localStorage) para não perder quando eu fechar. Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+PÁGINA DE VENDAS OU CARDÁPIO
+Uma página bonita para divulgar o seu negócio e receber pedidos.
+
+Aja como um designer especialista em pequenos negócios. Crie uma página de vendas para [nome do seu negócio], que vende [seus produtos] em [sua cidade].
+Seções: topo com o nome e uma frase forte, cardápio ou catálogo com foto, nome, descrição e preço, depoimentos de clientes, perguntas frequentes, horário de funcionamento e endereço. Cada produto tem um botão "Pedir pelo WhatsApp" que abre a conversa com o meu número [seu WhatsApp] e a mensagem já escrita com o nome do produto. Faça tudo em um único arquivo HTML, que abra no navegador do computador e do celular, sem instalar nada. Visual bonito e moderno, botões grandes, tudo em português do Brasil, valores em reais (R$ 1.234,56). Já deixe dados de exemplo preenchidos, com um botão para apagar e começar do zero.
+
+============================================================
+PLANEJAR UMA AUTOMAÇÃO NO N8N
+A IA te guia para montar o fluxo: formulário, planilha e WhatsApp.
+
+Aja como um especialista em automação com n8n que explica para iniciantes. Quero esta automação: quando um cliente preencher o formulário de pedido do meu site, o pedido entra numa planilha do Google, o cliente recebe uma mensagem de confirmação no WhatsApp e eu recebo um aviso no meu celular.
+Me explique: quais blocos (nós) usar e em que ordem, o que é o webhook e o que é cada API nesse fluxo, como testar, e o que eu preciso contratar ou configurar (WhatsApp, Google). Vá passo a passo e me pergunte o que precisar antes de começar.
+
+============================================================
+DICA 1: AJA COMO SE FOSSE
+Dê um papel para a IA e a resposta vem de especialista.
+
+Aja como um consultor financeiro de pequenos negócios. Me ajude a calcular o preço do meu [produto], que custa R$ [custo] para fazer, com taxa de [taxa]% na maquininha. Quero ter [lucro]% de lucro. Explique a conta de um jeito simples.
+
+============================================================
+DICA 2: PEÇA PARA A IA CRIAR O PROMPT
+Ela faz as perguntas e escreve o pedido ideal para você.
+
+Quero criar [o que você quer: um dashboard das minhas vendas, uma calculadora, um controle de estoque...]. Antes de tudo, me faça perguntas, uma de cada vez, até entender tudo o que você precisa. Depois, escreva o prompt ideal para eu usar.

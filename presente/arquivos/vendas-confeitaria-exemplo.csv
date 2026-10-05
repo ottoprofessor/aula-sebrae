@@ -1,0 +1,128 @@
+﻿Data;Produto;Quantidade;Valor
+01/05/2026;Bolo de pote;4;48,00
+06/05/2026;Torta de limão;1;85,00
+07/05/2026;Bolo de pote;6;72,00
+09/05/2026;Bolo de pote;11;132,00
+09/05/2026;Torta de limão;2;170,00
+12/05/2026;Bolo de pote;6;72,00
+12/05/2026;Bolo de pote;11;132,00
+13/05/2026;Salgado (cento);3;270,00
+16/05/2026;Bolo de pote;13;156,00
+16/05/2026;Salgado (cento);1;90,00
+20/05/2026;Brownie;10;80,00
+22/05/2026;Brownie;7;56,00
+23/05/2026;Bolo de aniversário;1;160,00
+25/05/2026;Salgado (cento);3;270,00
+26/05/2026;Torta de limão;1;85,00
+28/05/2026;Bolo de pote;6;72,00
+30/05/2026;Bolo de pote;8;96,00
+01/06/2026;Bolo de pote;9;108,00
+01/06/2026;Salgado (cento);2;180,00
+02/06/2026;Brigadeiro (cento);1;110,00
+02/06/2026;Salgado (cento);1;90,00
+04/06/2026;Torta de limão;2;170,00
+06/06/2026;Bolo de pote;7;84,00
+06/06/2026;Bolo de pote;13;156,00
+08/06/2026;Bolo de pote;11;132,00
+11/06/2026;Torta de limão;1;85,00
+12/06/2026;Brigadeiro (cento);2;220,00
+13/06/2026;Brownie;6;48,00
+13/06/2026;Brownie;16;128,00
+17/06/2026;Bolo de pote;6;72,00
+19/06/2026;Brigadeiro (cento);2;220,00
+23/06/2026;Brigadeiro (cento);2;220,00
+24/06/2026;Brownie;12;96,00
+27/06/2026;Brownie;15;120,00
+06/07/2026;Bolo de aniversário;1;160,00
+09/07/2026;Torta de limão;2;170,00
+11/07/2026;Brigadeiro (cento);2;220,00
+11/07/2026;Brownie;9;72,00
+11/07/2026;Brownie;18;144,00
+11/07/2026;Salgado (cento);2;180,00
+11/07/2026;Torta de limão;2;170,00
+15/07/2026;Bolo de pote;13;156,00
+17/07/2026;Salgado (cento);2;180,00
+18/07/2026;Bolo de aniversário;1;160,00
+18/07/2026;Brownie;10;80,00
+18/07/2026;Torta de limão;2;170,00
+19/07/2026;Brownie;12;96,00
+23/07/2026;Salgado (cento);2;180,00
+23/07/2026;Torta de limão;2;170,00
+25/07/2026;Brownie;13;104,00
+26/07/2026;Bolo de pote;13;156,00
+26/07/2026;Brownie;7;56,00
+27/07/2026;Brownie;15;120,00
+27/07/2026;Torta de limão;1;85,00
+01/08/2026;Bolo de pote;13;156,00
+01/08/2026;Salgado (cento);2;180,00
+02/08/2026;Brigadeiro (cento);2;220,00
+06/08/2026;Bolo de pote;12;144,00
+06/08/2026;Brownie;14;112,00
+07/08/2026;Brownie;14;112,00
+08/08/2026;Bolo de aniversário;1;160,00
+11/08/2026;Brigadeiro (cento);1;110,00
+12/08/2026;Bolo de pote;10;120,00
+15/08/2026;Bolo de pote;14;168,00
+18/08/2026;Bolo de pote;13;156,00
+18/08/2026;Bolo de pote;14;168,00
+19/08/2026;Brigadeiro (cento);2;220,00
+19/08/2026;Brigadeiro (cento);2;220,00
+19/08/2026;Brownie;11;88,00
+21/08/2026;Brownie;12;96,00
+22/08/2026;Bolo de pote;6;72,00
+22/08/2026;Brownie;16;128,00
+22/08/2026;Brownie;17;136,00
+27/08/2026;Bolo de pote;4;48,00
+28/08/2026;Salgado (cento);3;270,00
+29/08/2026;Salgado (cento);3;270,00
+01/09/2026;Bolo de pote;10;120,00
+01/09/2026;Salgado (cento);3;270,00
+04/09/2026;Brownie;13;104,00
+05/09/2026;Bolo de pote;12;144,00
+05/09/2026;Bolo de pote;13;156,00
+05/09/2026;Brownie;13;104,00
+10/09/2026;Bolo de pote;8;96,00
+10/09/2026;Torta de limão;2;170,00
+12/09/2026;Bolo de aniversário;1;160,00
+12/09/2026;Brownie;18;144,00
+14/09/2026;Bolo de pote;10;120,00
+15/09/2026;Salgado (cento);1;90,00
+16/09/2026;Bolo de pote;7;84,00
+16/09/2026;Bolo de pote;11;132,00
+16/09/2026;Brownie;11;88,00
+20/09/2026;Bolo de pote;12;144,00
+20/09/2026;Brownie;6;48,00
+21/09/2026;Brownie;9;72,00
+22/09/2026;Brownie;8;64,00
+23/09/2026;Brownie;15;120,00
+26/09/2026;Torta de limão;1;85,00
+28/09/2026;Brigadeiro (cento);2;220,00
+28/09/2026;Brownie;9;72,00
+28/09/2026;Brownie;11;88,00
+03/10/2026;Brigadeiro (cento);2;220,00
+03/10/2026;Torta de limão;2;170,00
+04/10/2026;Bolo de pote;11;132,00
+04/10/2026;Brownie;7;56,00
+04/10/2026;Brownie;14;112,00
+05/10/2026;Bolo de pote;10;120,00
+05/10/2026;Brownie;18;144,00
+06/10/2026;Bolo de pote;6;72,00
+08/10/2026;Brownie;6;48,00
+10/10/2026;Bolo de pote;5;60,00
+14/10/2026;Brownie;17;136,00
+15/10/2026;Bolo de pote;9;108,00
+16/10/2026;Brownie;15;120,00
+17/10/2026;Bolo de pote;10;120,00
+17/10/2026;Bolo de pote;14;168,00
+18/10/2026;Salgado (cento);1;90,00
+20/10/2026;Bolo de pote;7;84,00
+21/10/2026;Bolo de pote;8;96,00
+22/10/2026;Bolo de aniversário;1;160,00
+22/10/2026;Torta de limão;2;170,00
+23/10/2026;Bolo de aniversário;1;160,00
+24/10/2026;Bolo de pote;5;60,00
+24/10/2026;Bolo de pote;8;96,00
+24/10/2026;Brigadeiro (cento);1;110,00
+24/10/2026;Brownie;5;40,00
+24/10/2026;Torta de limão;1;85,00
+31/10/2026;Bolo de pote;13;156,00
