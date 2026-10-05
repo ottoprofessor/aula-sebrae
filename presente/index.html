@@ -116,16 +116,18 @@ input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
    Enquanto estiver vazio, o formulário NÃO envia nada e avisa a pessoa.
    Use CADASTRO_MODO = 'no-cors' para Google Apps Script.
    ============================================================ */
-var CADASTRO_URL = '';
+var CADASTRO_URL = 'https://azzaacademy.com.br/api/presente';
 var CADASTRO_MODO = 'cors';
+/* Código do evento, fornecido pela plataforma da Azza. */
+var EVENTO_CODIGO = 'sebrae-rr-ia';
 /* Página de entrada da plataforma, usada se a resposta do cadastro não trouxer um link de acesso próprio. */
-var PLATAFORMA_URL = '';
+var PLATAFORMA_URL = 'https://azzaacademy.com.br/login';
 
 (function(){
   var f=document.getElementById('form'),msg=document.getElementById('msg'),send=document.getElementById('send');
   function show(t,c){msg.textContent=t;msg.className='msg '+c;}
   f.addEventListener('submit',function(e){e.preventDefault();
-    var d={nome:f.nome.value.trim(),email:f.email.value.trim(),whatsapp:f.whatsapp.value.trim(),origem:'aula-ia-no-pequeno-negocio-sebrae-rr',enviado_em:new Date().toISOString()};
+    var d={codigo:EVENTO_CODIGO,nome:f.nome.value.trim(),email:f.email.value.trim(),whatsapp:f.whatsapp.value.trim(),origem:'aula-ia-no-pequeno-negocio-sebrae-rr',enviado_em:new Date().toISOString()};
     if(f.site.value)return;
     if(d.nome.length<3){show('Escreva o seu nome completo.','err');f.nome.focus();return;}
     if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(d.email)){show('Confira o seu e-mail: é para lá que vai o acesso.','err');f.email.focus();return;}
@@ -133,15 +135,17 @@ var PLATAFORMA_URL = '';
     if(!CADASTRO_URL){show('O cadastro ainda está sendo configurado. Tente de novo em alguns minutos.','wait');return;}
     send.disabled=true;send.textContent='Enviando...';show('','');msg.className='msg';
     var opt=CADASTRO_MODO==='no-cors'?{method:'POST',mode:'no-cors',body:JSON.stringify(d)}:{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)};
-    fetch(CADASTRO_URL,opt).then(function(r){if(CADASTRO_MODO==='no-cors')return {};if(!r.ok)throw new Error(r.status);return r.json().catch(function(){return {};});})
-    .then(function(j){if(j&&j.ok===false)throw new Error(j.erro||'erro');
+    fetch(CADASTRO_URL,opt).then(function(r){if(CADASTRO_MODO==='no-cors')return {};return r.json().catch(function(){return {};}).then(function(j){if(!r.ok){var e=new Error('http');e.txt=j&&j.erro;throw e;}return j;});})
+    .then(function(j){if(j&&j.ok===false){var e=new Error('erro');e.txt=j.erro;throw e;}
       var link=(j&&(j.acesso_url||j.link))||PLATAFORMA_URL,first=d.nome.split(' ')[0];
       f.style.display='none';var dn=document.getElementById('done');
       document.getElementById('doneTxt').textContent=(j&&j.mensagem)||('Obrigado, '+first+'. As 4 aulas e a ferramenta de gestão financeira já estão liberadas para você.');
       var en=document.getElementById('enter');if(link){en.href=link;en.style.display='block';}
-      document.getElementById('doneMail').textContent='Também mandamos o link de acesso para '+d.email+'. Se não chegar, olhe a caixa de spam.';
+      var antigo=j&&j.novo===false;
+      if(antigo){en.textContent='Entrar com meu login';if(!j.mensagem)document.getElementById('doneTxt').textContent='Você já tinha conta na Azza Academy, '+first+'. O presente foi liberado nela.';}
+      document.getElementById('doneMail').textContent=(antigo?'Mandamos as instruções de acesso para ':'Também mandamos o link de acesso para ')+d.email+'. Se não chegar, olhe a caixa de spam.';
       dn.style.display='block';dn.scrollIntoView({behavior:'smooth',block:'center'});})
-    .catch(function(){show('Não deu para enviar agora. Confira a internet e tente de novo.','err');send.disabled=false;send.textContent='Quero meu acesso';});});
+    .catch(function(er){show((er&&er.txt)||'Não deu para enviar agora. Confira a internet e tente de novo.','err');send.disabled=false;send.textContent='Quero meu acesso';});});
 })();
 </script>
 </body>
