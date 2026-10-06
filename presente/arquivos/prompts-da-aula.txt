@@ -7,7 +7,13 @@ Como usar: copie o prompt, cole no ChatGPT ou no Claude e envie. Troque o que es
 CALCULADORA DE PREÇO DE VENDA
 A ferramenta que criamos ao vivo, em 1 minuto.
 
-Crie um aplicativo em um único arquivo HTML para eu usar no celular: uma calculadora de preço de venda para o meu negócio. Campos: custo do produto, taxa da maquininha (%) e lucro que eu quero (%). Mostre na hora o preço de venda e quanto sobra de lucro. Visual bonito, botões grandes e tudo em português.
+Aja como um desenvolvedor especialista em aplicativos para pequenos negócios. Crie um aplicativo em um único arquivo HTML para eu usar no celular: uma calculadora de preço de venda para o meu negócio.
+1. Campos: custo do produto (R$), taxa da maquininha (%), imposto (%) e lucro que eu quero (%), já preenchidos com um exemplo.
+2. Calcule na hora, sem botão: preço = custo ÷ (100% − taxa − imposto − lucro).
+3. Mostre o preço em destaque e, embaixo, uma barra colorida com quanto de cada real vai para custo, taxa, imposto e lucro.
+4. Se taxa + imposto + lucro passar de 90%, avise em vermelho em vez de calcular.
+5. Botão "Salvar produto" para guardar nome e preço numa lista que não some quando eu fechar a página.
+Visual bonito e moderno, botões grandes, valores em reais (R$ 1.234,56) e tudo em português do Brasil. Entregue o código completo, pronto para abrir.
 
 ============================================================
 CALCULADORAS DO DIA A DIA (6 EM 1)

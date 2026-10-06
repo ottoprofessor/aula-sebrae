@@ -48,7 +48,13 @@ h1 em{font-style:normal;color:var(--accent)}
   <span class="eyebrow">Aula IA no Pequeno Negócio</span>
   <h1>Crie a sua primeira ferramenta <em>em 1 minuto</em></h1>
   <p class="lead">Copie o texto abaixo e cole no ChatGPT ou no Claude.</p>
-  <div class="card"><p id="prompt">Crie um aplicativo em um único arquivo HTML para eu usar no celular: uma calculadora de preço de venda para o meu negócio. Campos: custo do produto, taxa da maquininha (%) e lucro que eu quero (%). Mostre na hora o preço de venda e quanto sobra de lucro. Visual bonito, botões grandes e tudo em português.</p></div>
+  <div class="card"><p id="prompt">Aja como um desenvolvedor especialista em aplicativos para pequenos negócios. Crie um aplicativo em um único arquivo HTML para eu usar no celular: uma calculadora de preço de venda para o meu negócio.
+1. Campos: custo do produto (R$), taxa da maquininha (%), imposto (%) e lucro que eu quero (%), já preenchidos com um exemplo.
+2. Calcule na hora, sem botão: preço = custo ÷ (100% − taxa − imposto − lucro).
+3. Mostre o preço em destaque e, embaixo, uma barra colorida com quanto de cada real vai para custo, taxa, imposto e lucro.
+4. Se taxa + imposto + lucro passar de 90%, avise em vermelho em vez de calcular.
+5. Botão "Salvar produto" para guardar nome e preço numa lista que não some quando eu fechar a página.
+Visual bonito e moderno, botões grandes, valores em reais (R$ 1.234,56) e tudo em português do Brasil. Entregue o código completo, pronto para abrir.</p></div>
   <button class="copy" id="copy" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><span>Copiar o prompt</span></button>
   <p class="hint" id="hint">Se não copiar, toque e segure no texto acima.</p>
   <div class="go">
